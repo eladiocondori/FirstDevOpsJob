@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+dioapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deployment-devops
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-devops
-        image: antony0618/polyglot-ms-account
+        image: eladiocondori/polyglot-ms-account
         ports:
         - containerPort: 8080
 ---
