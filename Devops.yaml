@@ -1,4 +1,4 @@
-dioapiVersion: apps/v1
+dioapiVersion: apps/v2
 kind: Deployment
 metadata:
   name: app-deployment-devops
